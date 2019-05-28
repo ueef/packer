@@ -1,0 +1,17 @@
+{
+  "name": "ueef/packer",
+  "type": "library",
+  "license": "MIT",
+  "description": "Basic interface to pack objects",
+  "config": {
+    "vendor-dir": "var/vendor"
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ueef\\Packer\\": "src"
+    }
+  }
+}
