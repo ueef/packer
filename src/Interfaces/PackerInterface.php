@@ -6,5 +6,5 @@ namespace Ueef\Packer\Interfaces;
 interface PackerInterface
 {
     public function pack(object $entity): array;
-    public function unpack(array $packed);
+    public function unpack(array $packed): object;
 }
