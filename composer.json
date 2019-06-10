@@ -7,7 +7,8 @@
     "vendor-dir": "var/vendor"
   },
   "require": {
-    "php": ">=7.2"
+    "php": ">=7.2",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
